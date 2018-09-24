@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Travel Time</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="password_hint">Lütfen Şifrenizi Giriniz.</string>
+    <string name="email_hint">Lütfen Emailiniz giriniz.</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_message">Lütfen Email ve Şifrenizi giriniz</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="signup_success">Hesap başarıyla oluşturuldu. Giriş yapabilirsiniz.</string>
+    <string name="login_error_message">Lütfen email ve şifrenizi giriniz!</string>
+    <string name="login_error_title">Hata!</string>
+    <string name="login_button_label">Giriş</string>
+    <string name="sign_up_text">Kaydol</string>
+    <string name="title_activity_login">Giriş Yap</string>
+    <string name="add_item">Yeni not ekleyin.</string>
+    <string name="action_logout">Çıkış Yap</string>
+    <string name="change_txt">Değiştir</string>
+    <string name="close_txt">Vazgeç</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="kayitlarim">Kayitlarim</string>
+</resources>

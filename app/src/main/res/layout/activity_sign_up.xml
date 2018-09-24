@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/manzara">
+
+
+    <com.onur.kryptow.timetravel.custom_font.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main"
+        android:layout_marginBottom="75dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Hesap Oluştur"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/roundwhite">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"/>
+
+        <com.onur.kryptow.timetravel.custom_font.MyEditText
+            android:id="@+id/emailField"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawablePadding="10dp"
+            android:hint="E-Mail"
+            android:letterSpacing="0.1"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="13dp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="@drawable/roundwhite"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/password"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"/>
+
+    <com.onur.kryptow.timetravel.custom_font.MyEditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:drawablePadding="10dp"
+        android:hint="Şifre"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:letterSpacing="0.1"
+        android:paddingLeft="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="13dp" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/roundwhite"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/pass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/password"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            />
+
+
+        <com.onur.kryptow.timetravel.custom_font.MyEditText
+            android:id="@+id/ConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:hint="Şifreyi onayla"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:letterSpacing="0.1"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <com.onur.kryptow.timetravel.custom_font.MyTextView
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/bottom"
+
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:text="Kayıt Ol"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+<LinearLayout
+    android:id="@+id/bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <com.onur.kryptow.timetravel.custom_font.MyTextView
+
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Giriş Yap !"
+        android:textColor="#FFF" />
+
+    <com.onur.kryptow.timetravel.custom_font.MyTextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:text="Yardım"
+        android:textColor="#FFF" />
+</LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>
